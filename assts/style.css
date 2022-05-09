@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    box-sizing:border-box;
+}
+.parent1{
+    width:80%;
+    margin:100px auto;
+    background-color: blue;
+    padding:50px;
+    position: relative;
+    border-top-right-radius:15px;
+    border-bottom-left-radius: 15px;
+
+}
+.parent2{
+    width:80%;
+    margin:auto;
+    background-color: rgb(200, 255, 0);
+    padding:50px;
+    position: relative;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.num1{
+    position: absolute;
+    top:5px;
+    left:5px;
+}
+.num2{
+    position: absolute;
+    bottom:5px;
+    right:5px;
+}
+.num3{
+    position: absolute;
+    top:5px;
+    left:5px; 
+}
+.num4{
+    position: absolute;
+    bottom:5px;
+    right:5px;
+}
